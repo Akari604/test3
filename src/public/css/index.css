@@ -1,0 +1,63 @@
+.header__inner {
+    margin: -30px auto;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 10px;
+}
+
+.header__logo {
+    color: rgb(213, 119, 200);
+    font-size: 35px;
+    font-family: "Playfair Display", serif;
+    margin-left: 10px;
+}
+
+.header__button {
+    display: flex;
+    justify-content: right;
+    margin-top: -70px;
+    margin-right: 20px;
+}
+
+.goal-set__button {
+    border: 1px solid #e2e2e2;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 3px 10px;
+    font-size: 13px;
+    margin-right: 15px;
+    background-color: #f7f6f6;
+}
+
+.logout__button {
+    border: 1px solid #e2e2e2;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 3px 10px;
+    font-size: 13px;
+    background-color: #f7f6f6;
+}
+
+main {
+    width: 100%;
+    height: 91vh;
+    background-color: #f7f6f6;
+    margin-top: 30px;
+}
+
+.admin-table__heading {
+    border: 1px solid #fff;
+    width: 70%;
+    height: 20vh;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+}
+
+.admin-label__middle {
+    border-left: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+}
