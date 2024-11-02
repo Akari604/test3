@@ -61,3 +61,63 @@ main {
     border-left: 1px solid #e2e2e2;
     border-right: 1px solid #e2e2e2;
 }
+
+.admin__inner {
+    border: 1px solid #fff;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-radius: 5px;
+    padding-bottom: 340px;
+    background-color: #fff;
+}
+
+.search-form__date {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 5%;
+}
+
+.search-form__date-select {
+    padding: 3px 60px 0 0;
+}
+
+.search-form__actions {
+    margin-left: 10px;
+}
+
+.search-form__search-btn {
+    padding: 3px 25px;
+    background-color: #666464;
+    color: #fff;
+}
+
+.data-addition {
+    position: relative;
+    left: 400px;
+}
+
+.data-addition__btn {
+    border: 1px solid;
+    padding: 3px 10px;
+    text-decoration: none;
+    /* color: #fff; */
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.admin-table {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 90%;
+}
+
+.admin-row {
+    border-bottom: 1px solid;
+}
+
+.admin__label {
+    padding-left: 40px;
+}
+

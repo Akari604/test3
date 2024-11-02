@@ -14,4 +14,6 @@ use App\Http\Controllers\Test3Controller;
 */
 
 Route::get('/weight_logs',[Test3Controller::class, 'index']);
+Route::get('/weight_logs/create',[Test3Controller::class, 'store']);
+Route::post('/weight_logs/create',[Test3Controller::class, 'create']);
 
